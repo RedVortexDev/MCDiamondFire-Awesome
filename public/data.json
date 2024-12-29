@@ -97,38 +97,12 @@
     "description": "Coding utilities for your client",
     "items": [
       {
-        "name": "recode",
-        "description": "Maintained CodeUtilities 2.0 fork.",
-        "properties": {
-          "Discord": "https://discord.gg/GWxWtcwA2C",
-          "Github": "https://github.com/homchom/recode",
-          "Version": "1.20.2"
-        }
-      },
-      {
-        "name": "LessUtilities",
-        "description": "A couple utilities from CodeUtilities 2.0.",
-        "properties": {
-          "Github": "https://github.com/KabanFriends/LessUtilities/",
-          "Version": "1.20.4"
-        }
-      },
-      {
-        "name": "DFScript",
-        "description": "A revival of the CodeUtilities scripting feature.",
-        "properties": {
-          "Discord": "https://discord.gg/pEZYShEj",
-          "Github": "https://github.com/DFOnline/DFScript",
-          "Version": "1.20.4"
-        }
-      },
-      {
         "name": "CodeClient",
         "description": "An in development mod with large changes to optimize how you code. From the devs of DFOnline.",
         "properties": {
           "Discord": "https://discord.gg/NqU6XnyVPA",
           "Github": "https://github.com/DFOnline/CodeClient",
-          "Version": "1.20.4"
+          "Version": "1.21.3"
         }
       }
     ]
@@ -150,15 +124,6 @@
         "properties": {
           "Github": "https://github.com/KabanFriends/vmd2df"
         }
-      },
-      {
-        "name": "DF Spigotifier",
-        "description": "Convert DiamondFire template into Spigot plugins.",
-        "properties": {
-          "Website": "https://wonkers0.github.io/DFSpigot/website/index.html",
-          "Discord": "https://discord.gg/6j5NhPuZ6B",
-          "Github": "https://github.com/Wonkers0/DFSpigot"
-        }
       }
     ]
   },
@@ -167,11 +132,10 @@
     "description": "More things that don't fit in the categories above",
     "items": [
       {
-        "name": "DiamondFire Tools",
-        "description": "A collection of web-tools for the DiamondFire Minecraft server. Create stylized text for DiamondFire text values. View a filterable list of DiamondFire commands.",
+        "name": "Red DF",
+        "description": "DiamondFire utilities and tools such as the color palette, nbs and text file importing, and more.",
         "properties": {
-          "Website": "https://dftools.rf.gd",
-          "Github": "https://github.com/Racooder/DiamondFire-Tools"
+          "Website": "https://red.dfonline.dev/"
         }
       },
       {
@@ -245,6 +209,58 @@
         "properties": {
           "Github": "https://github.com/UserUNP/DFblocc",
           "Website": "https://blocc.dfplots.net/"
+        }
+      },
+      {
+        "name": "recode",
+        "description": "Maintained CodeUtilities 2.0 fork.",
+        "properties": {
+          "Discord": "https://discord.gg/GWxWtcwA2C",
+          "Github": "https://github.com/homchom/recode",
+          "Version": "1.20.2",
+          "Deprecated": "recode has been officially discontinued."
+        },
+        "outdated": true
+      },
+      {
+        "name": "LessUtilities",
+        "description": "A couple utilities from CodeUtilities 2.0.",
+        "properties": {
+          "Github": "https://github.com/KabanFriends/LessUtilities/",
+          "Version": "1.20.4",
+          "Deprecated": "Has not received any updates after 1.20.4."
+        },
+        "outdated": true
+      },
+      {
+        "name": "DFScript",
+        "description": "A revival of the CodeUtilities scripting feature.",
+        "properties": {
+          "Discord": "https://discord.gg/pEZYShEj",
+          "Github": "https://github.com/DFOnline/DFScript",
+          "Version": "1.20.4",
+          "Deprecated": "Has not received any updates after 1.20.4."
+        },
+        "outdated": true
+      },
+      {
+        "name": "DiamondFire Tools",
+        "description": "A collection of web-tools for the DiamondFire Minecraft server. Create stylized text for DiamondFire text values. View a filterable list of DiamondFire commands.",
+        "properties": {
+          "Website": "https://dftools.rf.gd",
+          "Github": "https://github.com/Racooder/DiamondFire-Tools",
+          "Deprecated": "Website appears to be down."
+        },
+        "outdated": true
+      },
+      {
+        "name": "DF Spigotifier",
+        "description": "Convert DiamondFire template into Spigot plugins.",
+        "properties": {
+          "Website": "https://wonkers0.github.io/DFSpigot/website/index.html",
+          "Discord": "https://discord.gg/6j5NhPuZ6B",
+          "Github": "https://github.com/Wonkers0/DFSpigot",
+          "Deprecated": "Discontinued by developer."
         }
       }
     ]

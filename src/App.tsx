@@ -74,6 +74,7 @@ function App() {
           <p className="text-2xl">Awesome list for MCDiamondFire: External tools, code templates, and more</p>
         </div>
       </div>
+      <p className="italic text-md">Want to suggest a project that is not listed here, or you've noticed an outdated one? Report it on our <a href="https://github.com/RedVortexDev/MCDiamondFire-Awesome">GitHub</a>.</p>
       {/* Content */}
       <div className="m-10 md:m-0 mt-5">
         {data == null ? <p></p> :

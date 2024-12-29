@@ -11,13 +11,15 @@
           "Github": "https://github.com/DFOnline/editor",
           "Website": "https://dfonline.dev/"
         }
-      }, {
+      },
+      {
         "name": "Raw Code Template Manipulation",
         "description": "Full control over code templates, but harder to do.",
         "properties": {
           "Link": "https://mcdiamondfire.com/threads/code-template-manipulation.51/"
         }
-      }, {
+      },
+      {
         "name": "DFPrismarine",
         "description": "Create code templates using JavaScript inside your browser.",
         "properties": {
@@ -25,54 +27,62 @@
           "Github": "https://github.com/dfprismarine/dfprismarine.github.io",
           "Website": "https://dfprismarine.github.io/"
         }
-      }, {
+      },
+      {
         "name": "pyre",
         "description": "Create code templates using Python inside your favorite IDE.",
         "properties": {
           "Github": "https://github.com/Amp63/pyre",
           "PyPI": "https://pypi.org/project/dfpyre"
         }
-      }, {
+      },
+      {
         "name": "DFBlock (Python)",
         "description": "A DiamondFire Type Interface, coded in Python.",
         "properties": {
           "Github": "https://github.com/showierdata9978/DFBlocks",
           "PyPI": "https://pypi.org/project/dfblocks/"
         }
-      }, {
+      },
+      {
         "name": "McDFPy",
         "description": "A python library to create code for DiamondFire.",
         "properties": {
           "Github": "https://github.com/AlignedCookie88/McDFPy",
           "PyPI": "https://pypi.org/project/McDFPy"
         }
-      }, {
+      },
+      {
         "name": "Blackstone",
         "description": "A programming language designed for DiamondFire.",
         "properties": {
           "Github": "https://github.com/BlackstoneDF/blackstone",
           "Crates.io": "https://crates.io/crates/blackstone-df"
         }
-      }, {
+      },
+      {
         "name": "FrozenJade",
         "description": "A custom low-level programming language that can be converted to DiamondFire Templates and back(WIP). Created with antlr4.",
         "properties": {
           "Github": "https://github.com/HellishBro/FrozenJade"
         }
-      }, {
+      },
+      {
         "name": "scratchfire",
         "description": "A block based coding language and IDE for the Minecraft server Diamondfire.",
         "properties": {
           "Github": "https://github.com/anatevka-xD/scratchfire",
           "Discord": "https://discord.gg/a5h7PKbE33"
         }
-      }, {
+      },
+      {
         "name": "KotlinFire",
         "description": "KotlinFire is a Kotlin library for template manipulation, making use of Kotlin lambdas, operator overloading, and extension functions, allowing for a pretty clean syntax.",
         "properties": {
           "Github": "https://github.com/FlyingPig525/KotlinFire"
         }
-      }, {
+      },
+      {
         "name": "dfrs",
         "description": "A text based programming language that compiles to DiamondFire code templates.",
         "properties": {
@@ -94,14 +104,16 @@
           "Github": "https://github.com/homchom/recode",
           "Version": "1.20.2"
         }
-      }, {
+      },
+      {
         "name": "LessUtilities",
         "description": "A couple utilities from CodeUtilities 2.0.",
         "properties": {
           "Github": "https://github.com/KabanFriends/LessUtilities/",
           "Version": "1.20.4"
         }
-      }, {
+      },
+      {
         "name": "DFScript",
         "description": "A revival of the CodeUtilities scripting feature.",
         "properties": {
@@ -109,7 +121,8 @@
           "Github": "https://github.com/DFOnline/DFScript",
           "Version": "1.20.4"
         }
-      }, {
+      },
+      {
         "name": "CodeClient",
         "description": "An in development mod with large changes to optimize how you code. From the devs of DFOnline.",
         "properties": {
@@ -130,13 +143,15 @@
         "properties": {
           "Github": "https://github.com/RyanLandDev/DFSchematics/"
         }
-      }, {
+      },
+      {
         "name": "vmd2df",
         "description": "Create armor stand code from vmd files.",
         "properties": {
           "Github": "https://github.com/KabanFriends/vmd2df"
         }
-      }, {
+      },
+      {
         "name": "DF Spigotifier",
         "description": "Convert DiamondFire template into Spigot plugins.",
         "properties": {
@@ -158,19 +173,21 @@
           "Website": "https://dftools.rf.gd",
           "Github": "https://github.com/Racooder/DiamondFire-Tools"
         }
-      }, {
+      },
+      {
         "name": "dfplots.net",
         "description": "You can claim any subdomain of dfplots.net to host a site for your DiamondFire plot.",
         "properties": {
-            "Website": "https://www.dfplots.net/",
-            "Discord": "https://discord.gg/rxmfkDjy6c"
+          "Website": "https://www.dfplots.net/",
+          "Discord": "https://discord.gg/rxmfkDjy6c"
         }
-      }, {
+      },
+      {
         "name": "DiamondFireWithShaders",
         "description": "DiamondFireWithShaders is a gallery of images of DiamondFire node spawns with cool shaders.",
         "properties": {
-            "Website": "https://astrosquared.github.io/DiamondFireWithShaders/",
-            "Github": "https://github.com/AstroSquared/DiamondFireWithShaders"
+          "Website": "https://astrosquared.github.io/DiamondFireWithShaders/",
+          "Github": "https://github.com/AstroSquared/DiamondFireWithShaders"
         }
       }
     ]
@@ -190,7 +207,8 @@
           "Deprecated": "Replaced with recode and DFScript."
         },
         "outdated": true
-      }, {
+      },
+      {
         "name": "CodeUtilities 2.0",
         "description": "Feature packed with utilities.",
         "properties": {
@@ -201,7 +219,8 @@
           "Deprecated": "DF no longer supports this Minecraft version."
         },
         "outdated": true
-      }, {
+      },
+      {
         "name": "Sparkscript",
         "description": "Create code templates using JavaScript inside your favorite IDE.",
         "properties": {
@@ -210,7 +229,8 @@
           "NPM": "https://www.npmjs.com/package/sparkscript"
         },
         "outdated": true
-      }, {
+      },
+      {
         "name": "JFDF",
         "description": "Create code templates using Java.",
         "properties": {
@@ -218,7 +238,8 @@
           "Docs": "https://jfdf-docs.netlify.app/latest/"
         },
         "outdated": true
-      }, {
+      },
+      {
         "name": "DFblocc",
         "description": "Code templates made with a scratch-like editor.",
         "properties": {

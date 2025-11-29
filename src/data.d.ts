@@ -10,6 +10,7 @@ export interface Item {
     description: string
     properties: Record<string, string>
     outdated?: boolean
+    stale?: boolean
 }
 
 export type Data = Category[]

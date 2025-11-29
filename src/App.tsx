@@ -49,7 +49,11 @@ function App() {
         <h1 className="text-3xl pt-10 font-extrabold"><TitleInner text={category.name} /></h1>
         <p className="text-lg">{category.description}</p>
         {category.items.map(item => <>
-          <h1 className="text-xl pt-2 font-bold"><TitleInner text={item.name} small />{item.outdated ? <span className="bg-gradient-to-r from-red-700 to-red-900 rounded-sm ml-2 p-1 text-sm">OUTDATED</span> : <></>}</h1>
+          <h1 className="text-xl pt-2 font-bold">
+              <TitleInner text={item.name} small />
+              {item.outdated ? <span className="bg-gradient-to-r from-red-700 to-red-900 rounded-sm ml-2 p-1 text-sm">OUTDATED</span> : <></>}
+              {item.stale ? <span className="bg-gradient-to-r from-orange-700 to-orange-900 rounded-sm ml-2 p-1 text-sm">STALE</span> : <></>}
+          </h1>
           <p className="">{item.description}</p>
           {objectMap(item.properties, (k, v) => <Property data={[k, v]} key={k} />)}
         </>)}
@@ -59,31 +63,35 @@ function App() {
 
   // Render HTML
   return (
-    <div className="md:m-10 cursor-default select-none">
-      {/* Header */}
-      <div className="w-full md:w-fit p-10 bg-cover relative">
-        <img className="md:rounded-lg absolute top-0 left-0 z-[-1] h-full w-full object-cover opacity-75" src="https://raw.githubusercontent.com/AstroSquared/DiamondFireWithShaders/main/images/node7_2.png" />
-        <div className="absolute top-3 right-3 flex gap-3 text-3xl">
-          <a href="https://github.com/RedVortexDev/MCDiamondFire-Awesome" className="ignore opacity-90 hover:opacity-100 transition"><FontAwesomeIcon icon={faGithub} /></a>
-          <a href="https://discord.gg/2EFfbqTUwT" className="ignore opacity-90 hover:opacity-100 transition"><FontAwesomeIcon icon={faDiscord} /></a>
-        </div>
-        <div>
-          <h1 className="text-5xl font-bold">
-            DiamondFire-Awesome
-          </h1>
-          <p className="text-2xl">Awesome list for MCDiamondFire: External tools, code templates, and more</p>
-        </div>
-      </div>
-      <p className="italic text-md">Want to suggest a project that is not listed here, or you've noticed an outdated one? Report it on our <a href="https://github.com/RedVortexDev/MCDiamondFire-Awesome">GitHub</a>.</p>
-      {/* Content */}
-      <div className="m-10 md:m-0 mt-5">
-        {data == null ? <p></p> :
-        <div className="animate-fade-in">
-          <h1 className="text-4xl font-bold mt-10">Table of contents</h1>
-          <ul>{tableOfContents}</ul>
-          {content}
-        </div>
-        }
+    <div className="md:m-10 cursor-default select-none flex flex-col items-center">
+      <div>
+          {/* Header */}
+          <div className="w-full md:w-fit p-10 bg-cover relative">
+              <img className="md:rounded-lg absolute top-0 left-0 z-[-1] h-full w-full object-cover opacity-75" src="https://raw.githubusercontent.com/AstroSquared/DiamondFireWithShaders/main/images/node7_2.png" />
+              <div className="absolute top-3 right-3 flex gap-3 text-3xl">
+                  <a href="https://github.com/RedVortexDev/MCDiamondFire-Awesome" className="ignore opacity-90 hover:opacity-100 transition"><FontAwesomeIcon icon={faGithub} /></a>
+                  <a href="https://discord.gg/2EFfbqTUwT" className="ignore opacity-90 hover:opacity-100 transition"><FontAwesomeIcon icon={faDiscord} /></a>
+              </div>
+              <div>
+                  <h1 className="text-5xl font-bold">
+                      DiamondFire-Awesome
+                  </h1>
+                  <p className="text-2xl">Awesome list for MCDiamondFire: External tools, code templates, and more</p>
+              </div>
+          </div>
+          <p className="italic text-md">• Want to suggest a project that is not listed here, or you've noticed an outdated one? Report it on our <a href="https://github.com/RedVortexDev/MCDiamondFire-Awesome">GitHub</a>.</p>
+          <p className="italic text-md">• Outdated projects have been officially discontinued or are based on old Minecraft versions.</p>
+          <p className="italic text-md">• Stale projects may still work but have not received any updates in more than a year.</p>
+          {/* Content */}
+          <div className="m-10 md:m-0 mt-5 max-w-xl">
+              {data == null ? <p></p> :
+                  <div className="animate-fade-in">
+                      <h1 className="text-4xl font-bold mt-10">Table of contents</h1>
+                      <ul>{tableOfContents}</ul>
+                      {content}
+                  </div>
+              }
+          </div>
       </div>
     </div>
   )

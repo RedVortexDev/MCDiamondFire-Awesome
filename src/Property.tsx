@@ -1,5 +1,13 @@
 import { faDiscord, faGithub, faNpm, faPython, faRust } from "@fortawesome/free-brands-svg-icons";
-import { faBook, faCodeCompare, faGlobe, faLink, faQuestion, faSkull } from "@fortawesome/free-solid-svg-icons";
+import {
+    faBook,
+    faCodeCompare,
+    faGlobe,
+    faLink,
+    faQuestion,
+    faSkull,
+    faWarning
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { isMd, niceUrl } from "./util";
 
@@ -40,6 +48,9 @@ export default function(props: Props) {
       break
     case "deprecated":
       icon = <FontAwesomeIcon icon={faSkull} />
+      break
+    case "notice":
+      icon = <FontAwesomeIcon icon={faWarning} />
       break
     default:
       icon = <FontAwesomeIcon icon={faQuestion} />
